@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": ".",
+      "use": "@vercel/docker"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
+  ],
+  "env": {
+    "STREAMLIT_SERVER_HEADLESS": "true",
+    "STREAMLIT_SERVER_PORT": "8501",
+    "STREAMLIT_SERVER_ADDRESS": "0.0.0.0",
+    "STREAMLIT_SERVER_ENABLEXSRFPROTECTION": "false",
+    "STREAMLIT_SERVER_ENABLECORS": "false",
+    "STREAMLIT_CLIENT_SHOWSTDERR": "false",
+    "STREAMLIT_CLIENT_SHOWMESSAGEONRUN": "false",
+    "STREAMLIT_LOGGER_LEVEL": "error"
+  }
+}

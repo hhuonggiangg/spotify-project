@@ -1,0 +1,75 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Documentation
+README.md
+CHANGELOG.md
+*.md
+
+# Environment
+.env
+.env.local
+.venv
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cache
+.pytest_cache/
+.coverage
+.cache
+
+# Large files (models)
+*.pkl
+*.pickle
+*.pckl
+model_*.pkl
+scaler.pkl
+model_info.pkl
+*.h5
+*.pth
+*.joblib
+
+# Node
+node_modules/
+npm-debug.log
+
+# Testing
+.tox/
+.hypothesis/
+
+# Temp
+*.tmp
+*.bak
+
+# Local
+config.local.py
+secrets.json
+local_config.py

@@ -1,0 +1,125 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv
+
+# Streamlit
+.streamlit/
+streamlit_config.yaml
+
+# Model files (large - exclude)
+*.pkl
+*.pickle
+*.pckl
+model_*.pkl
+scaler.pkl
+model_info.pkl
+*.joblib
+*.h5
+*.pth
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# Local config
+.env
+.env.local
+local_config.py
+secrets.json
+config.local.py
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Logs
+*.log
+logs/
+
+# Cache
+*.cache
+.cache
+
+# Temp
+*.tmp
+*.bak
+*.swp
+*~
+
+# Documentation
+README.md
+CHANGELOG.md
+docs/
+*.md
+
+# Node
+node_modules/
+npm-debug.log
+
+# Other
+.vagrant/
+dist/
+*.egg
+.coverage
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
