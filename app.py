@@ -554,10 +554,10 @@ if 'selected_song' not in st.session_state:
 # ============================================================================
 
 try:
-    df = pd.read_csv('/mnt/user-data/uploads/spotify_songs.csv')
+    df = pd.read_csv('/mnt/user-data/uploads/spotify_songs_expanded.csv')
 except:
     try:
-        df = pd.read_csv('spotify_songs.csv')
+        df = pd.read_csv('spotify_songs_expanded.csv')
     except:
         st.error("❌ Dataset not found!")
         st.stop()
